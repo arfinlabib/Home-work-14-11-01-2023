@@ -1,0 +1,243 @@
+/* common css start  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1620px;
+    margin: auto;
+}
+.w-30{
+    width: 30%;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #521266;
+}
+.justify-between{
+    justify-content: space-between;
+}
+ .section_item-3 {
+    background: linear-gradient(180deg, #AA1281 0%, #EB0840 120.69%);
+    box-shadow: 0px 3px 15px rgba(0, 48, 44, 0.25);
+    border-radius: 25px;
+    text-align: center;
+    color: #ffff;
+    padding: 0 72px 54px;
+    margin-left: 40px;
+}
+
+ .section_item-3 h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 0 63px;
+}
+
+ .section_item-3 h6 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.section_item-3 p {
+    font-weight: 400;
+    font-size: 20px
+}
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 56px;
+}
+ .section_item-1 {
+    color: #fff;
+    padding: 125px 0 0;
+}
+
+ .section_item-1 h4 {
+    font-weight: 600;
+    font-size: 54px;
+}
+
+ .section_item-1 p {
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+/* common css start  */
+/* navigation section start  */
+#nav{
+    background: #fff;
+
+}
+#nav .logo{
+    width: 30%;
+}
+#nav .logo img{
+    display: block;
+}
+#nav .menu{
+    width: 70%;
+    justify-content: flex-end;
+}
+#nav .menu .right {
+    margin-left: 196px;
+    
+}
+#nav .row{
+    align-items: center;
+}
+#nav .menu ul li{
+    padding: 22px 16px;
+}
+#nav .menu a{
+    color: #521266;
+}
+/* navigation section end  */
+/* bannar section start */
+#bannar{
+     background-image: url(../img/bannar_1.jpg);
+     height: 1000px;
+     background-size: cover;
+     background-position: center;
+}
+#bannar img{
+    display: block;
+}
+
+#bannar h1{
+    color: #fff;
+    width: 602px;
+    font-weight: 600;
+    font-size: 36px;
+    padding-top: 355px;
+}
+/* bannar section end */
+/* count section css start  */
+#count {
+    text-align: center;
+}
+#count .container{
+    background: linear-gradient(104.01deg, #AA1281 22.64%, #AA1281 22.65%, #EB0840 97.34%);
+    border-radius: 15px;
+    transform: translateY(-50%);
+    
+}
+#count .container .section_item{
+    padding: 50px 127px 87px;
+}
+#count .container .section_item h5{
+    color: #ffff;
+    font-size: 36px;
+    font-weight: 600;
+}
+#count .container .section_item p {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* count section css end  */
+ /* plan section start */
+#plan h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 56px;
+    padding: 130px 0;
+}
+#plan .section_item-3{
+    background: linear-gradient(180deg, #AA1281 0%, #EB0840 120.69%);
+    box-shadow: 0px 3px 15px rgba(0, 48, 44, 0.25);
+    border-radius: 25px;
+    text-align: center;
+    color: #ffff;
+    padding: 0 72px 54px;
+    margin-left: 40px;
+}
+#plan .section_item-3 h3{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 0 63px;
+}
+#plan .section_item-3 h6{
+    font-weight: 700;
+    font-size: 24px;
+}
+#plan .section_item-3 p{
+    font-weight: 400;
+    font-size: 20px
+}
+  /* plan section end */
+/* Tron section start  */
+#tron{
+    background-image: url(../img/tron_background_1.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    display: block;
+}
+
+/* Tron section end  */
+/* bounty section start  */
+#bounty h5{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    padding: 140px 0;
+}
+#bounty h4{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+#bounty h2 {
+    padding-top: 140px;
+}
+#bounty h5{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 56px;
+    padding: 140px 0;
+}
+/* bounty section end  */
+/* usdt section end  */
+#usdt{
+    background-image: url(../img/usdt_statistics_bg.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* usdt section end  */
+/* table section start  */
+#table .section_table{
+    border: 1px solid #fff;
+    height: 500px;
+    width: 30px;
+}
+/* table section end  */
